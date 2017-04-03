@@ -2,21 +2,21 @@ Simple Express api.
 
 - Set up
 
-  git clone.
-  npm install
-  node server
+  - git clone.
+  - npm install
+  - node server
 
 - Use
 
-  Get all models
+  - Get all models
     GET : api/models
-  Get a model
+  - Get a model
     GET : api/models/_id
-  Create new model
+  - Create new model
     POST : api/models
-  Update a model
+  - Update a model
     PUT : api/models/_id
-  Delete a model
+  - Delete a model
     DELETE : api/models/_id
-  Search
+  - Search
     GET :api/search?key={key}
