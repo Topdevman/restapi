@@ -65,8 +65,8 @@ router.delete('/models/:_id', function(req, res) {
     });
 });
 
-router.post('/search', function(req, res) {
-    const query = req.body.key;
+router.get('/search', function(req, res) {
+    const query = req.query.key;
     Model.search(query, function(err, model) {
         if(err) {
             throw err;
